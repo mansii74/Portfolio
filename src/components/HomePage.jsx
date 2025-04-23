@@ -1,4 +1,3 @@
-
 import profile from '../assets/IMG_0693.jpg';
 import { motion } from 'framer-motion';
 import { FiDownload, FiMail, FiGithub, FiLinkedin, FiTwitter, FiMenu, FiX } from 'react-icons/fi';
@@ -10,6 +9,7 @@ import Certifications from './Certifications';
 import Events from './Events';
 import Contact from './Contact';
 import About from './About';
+import Experience from './Experience';
 
 const HomePage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -101,7 +101,7 @@ const HomePage = () => {
             className="md:w-1/2 mb-12 md:mb-0"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Hi, I'm <br></br><span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Mansi Kumari</span>
+              Hi, I'm <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Mansi Kumari</span>
             </h1>
             
             <div className="text-2xl md:text-3xl font-medium mb-6 h-12">
@@ -121,8 +121,8 @@ const HomePage = () => {
             </div>
             
             <p className="text-gray-300 mb-8 text-lg">
-            I transform raw data into compelling narratives and intelligent solutions.
-             Currently pursuing Computer Science at LPU with Specialisation of data science.
+              I transform raw data into compelling narratives and intelligent solutions.
+              Currently pursuing Computer Science at LPU with Specialisation of data science.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -138,11 +138,11 @@ const HomePage = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/resume.pdf"
+                href="/mansicv.pdf"
                 download
                 className="px-8 py-3 border border-gray-600 rounded-lg font-medium flex items-center gap-2"
               >
-                <FiDownload /> Resume
+                <FiDownload /> Download CV
               </motion.a>
             </div>
           </motion.div>
@@ -167,19 +167,15 @@ const HomePage = () => {
           </motion.div>
         </div>
       </section>
-      {/* About */}
+
+      {/* Sections */}
       <About />
-      {/* Skills Section */}
       <Skills />
-      {/* Projects Section */}
       <ProjectsOverview />
-      {/* Certifications Section */}
       <Certifications />
-      {/* Events Section */}
+      <Experience />
       <Events />
-      {/* Contact Section */}
       <Contact />
-      
 
       {/* Social Links */}
       <motion.div 
@@ -205,39 +201,6 @@ const HomePage = () => {
         ))}
         <div className="h-16 w-px bg-gray-600 mx-auto mt-2"></div>
       </motion.div>
-      
-      {/* Scroll Indicator */}
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
-        className="fixed bottom-10 left-1/2 transform -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ 
-            y: [0, 10, 0],
-          }}
-          transition={{ 
-            repeat: Infinity,
-            duration: 1.5
-          }}
-          className="flex flex-col items-center"
-        >
-          <span className="text-sm mb-2">Scroll down</span>
-          <div className="w-4 h-8 border-2 border-gray-400 rounded-full">
-            <motion.div
-              className="w-1 h-1 bg-white rounded-full mx-auto mt-1"
-              animate={{ 
-                y: [0, 4, 0],
-              }}
-              transition={{ 
-                repeat: Infinity,
-                duration: 1.5
-              }}
-            />
-          </div>
-        </motion.div>
-      </motion.div> */}
     </div>
   );
 };

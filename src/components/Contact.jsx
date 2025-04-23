@@ -7,36 +7,36 @@ const Contact = () => {
     {
       icon: <FiMail size={24} />,
       name: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      value: "mansi01kri@gmail.com",
+      link: "mailto:mansi01kri@gmail.com",
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: <FiGithub size={24} />,
       name: "GitHub",
-      value: "github.com/yourusername",
-      link: "https://github.com/yourusername",
+      value: "github.com/mansii74",
+      link: "https://github.com/mansii74",
       color: "from-gray-700 to-gray-900"
     },
     {
       icon: <FiLinkedin size={24} />,
       name: "LinkedIn",
-      value: "linkedin.com/in/yourprofile",
-      link: "https://linkedin.com/in/yourprofile",
+      value: "linkedin.com/in/mansihere/",
+      link: "https://www.linkedin.com/in/mansihere/",
       color: "from-blue-600 to-blue-800"
     },
     {
       icon: <SiLeetcode size={24} />,
       name: "LeetCode",
-      value: "leetcode.com/yourprofile",
-      link: "https://leetcode.com/yourprofile",
+      value: "leetcode.com/u/mansi_1307/",
+      link: "https://leetcode.com/u/mansi_1307/",
       color: "from-yellow-500 to-orange-500"
     },
     {
       icon: <FiExternalLink size={24} />,
       name: "Portfolio",
-      value: "yourportfolio.com",
-      link: "https://yourportfolio.com",
+      value: "mansii74.github.io/Portfolio",
+      link: "https://mansii74.github.io/Portfolio",
       color: "from-green-500 to-teal-500"
     }
   ];
