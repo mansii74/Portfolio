@@ -9,6 +9,7 @@ import ProjectsOverview from './ProjectsOverview';
 import Certifications from './Certifications';
 import Events from './Events';
 import Contact from './Contact';
+import About from './About';
 
 const HomePage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -120,8 +121,8 @@ const HomePage = () => {
             </div>
             
             <p className="text-gray-300 mb-8 text-lg">
-            I now transform raw data into compelling narratives and intelligent solutions.
-             Currently pursuing Computer Science at LPU.
+            I transform raw data into compelling narratives and intelligent solutions.
+             Currently pursuing Computer Science at LPU with Specialisation of data science.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -166,6 +167,8 @@ const HomePage = () => {
           </motion.div>
         </div>
       </section>
+      {/* About */}
+      <About />
       {/* Skills Section */}
       <Skills />
       {/* Projects Section */}
