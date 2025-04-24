@@ -1,4 +1,4 @@
-import profile from '../assets/IMG_0693.jpg';
+import profile from '../assets/pic.jpg';
 import { motion } from 'framer-motion';
 import { FiDownload, FiMail, FiGithub, FiLinkedin, FiTwitter, FiMenu, FiX } from 'react-icons/fi';
 import { TypeAnimation } from 'react-type-animation';

@@ -21,31 +21,11 @@ const certificates = [
   {
     id: 3,
     title: 'Data Structures and Algorithms',
-    issuer: 'Hitbullseye',
-    image: '/certificates/dsa.jpg',
+    issuer: 'coursera',
+    image: '/certificates/Dynamic Programming.png',
     date: 'Jul 2024'
   },
-  {
-    id: 4,
-    title: 'Introduction to MongoDB',
-    issuer: 'MongoDB',
-    image: '/certificates/mongodb.jpg',
-    date: 'Aug 2024'
-  },
-  {
-    id: 5,
-    title: 'Introduction to Cloud Fundamentals',
-    issuer: 'LinkedIn Learning',
-    image: '/certificates/cloud.jpg',
-    date: 'Feb 2023'
-  },
-  {
-    id: 6,
-    title: 'Building Web Applications With PHP',
-    issuer: 'Coursera',
-    image: '/certificates/php.jpg',
-    date: 'Nov 2024'
-  },
+  
 ];
 
 const Certifications = () => {
