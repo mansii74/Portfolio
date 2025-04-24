@@ -152,7 +152,7 @@ const HomePage = () => {
             initial={{ x: 50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="md:w-2/5"
+            className="w-full md:w-auto max-w-xs md:max-w-sm lg:max-w-xs5"
           >
             <div className="relative">
               <div className="absolute -inset-4 rounded-2xl bg-gradient-to-r from-purple-600 to-pink-600 opacity-70 blur"></div>
@@ -161,6 +161,7 @@ const HomePage = () => {
                   src={profile}
                   alt="Mansi" 
                   className="rounded-xl w-full h-auto"
+                  style={{ maxWidth: '260px' }}  
                 />
               </div>
             </div>
