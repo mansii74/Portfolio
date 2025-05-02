@@ -186,10 +186,7 @@ const About = () => (
               <span className="text-purple-400 mr-2">▹</span>
               Anchor – GDG WTM Jalandhar 2024
             </li>
-            <li className="flex items-start">
-              <span className="text-purple-400 mr-2">▹</span>
-              Dean’s List Top 10 %
-            </li>
+            
           </ul>
         </motion.div>
       </motion.div>

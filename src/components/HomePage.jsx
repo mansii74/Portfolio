@@ -135,14 +135,16 @@ const HomePage = () => {
                 Contact Me
               </motion.a>
               
+              {/* ✅ Correct Resume Button */}
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="/mansicv.pdf"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 border border-gray-600 rounded-lg font-medium flex items-center gap-2"
               >
-                <FiDownload /> Download CV
+                <FiDownload /> View Resume
               </motion.a>
             </div>
           </motion.div>
@@ -185,7 +187,7 @@ const HomePage = () => {
         transition={{ delay: 0.4 }}
         className="fixed left-4 bottom-4 md:left-6 md:bottom-6 hidden md:flex flex-col gap-3 z-40"
       >
-        {[
+        {[ 
           { icon: <FiGithub size={24} />, url: "https://github.com/mansii74" },
           { icon: <FiLinkedin size={24} />, url: "https://www.linkedin.com/in/mansihere/" },
           { icon: <FiTwitter size={24} />, url: "#" },
